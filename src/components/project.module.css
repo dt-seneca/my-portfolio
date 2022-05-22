@@ -1,3 +1,8 @@
+.projectHeading {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-left: 5px;
+}
 .container {
     display: flex;
     min-height: 500px;
@@ -11,6 +16,59 @@
 .projectContainer {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 350px;
+    width: 250px;
     justify-content: space-evenly;
+}
+.projectTitle {
+    text-align: center;
+}
+.projectImage {
+    border: 1px solid green;
+    height: 187px;
+    /* filter: blur(1px); */
+    width: 100%;
+    background-image: url('../images/portfolio-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain
+}
+/* .projectImage:hover {
+    filter: blur(0);
+    cursor: pointer;
+} */
+.techList {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.techList li {
+    padding-bottom: 5px;
+}
+.buttonContainer {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.buttonContainer button {
+    background: white;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+    transition: all 0.5s;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.buttonContainer button:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
 }

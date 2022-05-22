@@ -1,0 +1,17 @@
+{
+    "projects": [
+        {
+            "name": "WeatherApp",
+            "technologies": ["MongoDB", "Express.JS"],
+            "image": ""
+        },
+        {
+            "name": "ChatApp",
+            "technologies": ["MySQL", "Express.js", "Socket.io"]
+        },
+        {
+            "name": "DentalFirmApp",
+            "technologies": ["MySQL", "WordPress", "Nginx", "Cloudflare"]
+        }
+    ]
+}
